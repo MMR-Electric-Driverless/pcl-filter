@@ -79,7 +79,7 @@ void PointCloudFilter::load_parameters()
     }
     if (m_y_rotation_angle || m_x_traslation || m_y_traslation || m_z_traslation){
         RCLCPP_INFO(this->get_logger(), "Rotation angle: %f rads", static_cast<float>(m_y_rotation_angle));
-        RCLCPP_INFO(this->get_logger(), "Traslation: %fm, %fm, %fm,", static_cast<float>(m_x_traslation), static_cast<float>(m_y_traslation), static_cast<float>(m_z_traslation));
+        RCLCPP_INFO(this->get_logger(), "Traslation: %fm, %fm, %fm", static_cast<float>(m_x_traslation), static_cast<float>(m_y_traslation), static_cast<float>(m_z_traslation));
     }
 }
 

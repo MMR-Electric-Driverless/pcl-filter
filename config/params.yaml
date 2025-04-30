@@ -9,6 +9,13 @@ pointcloud_filter_node:
     gradient: true
     intensity: false
     vertical_zones:
-      - "start: 0.0, end: 0.325, downsample: 12"
-      - "start: 0.325, end: 0.525, downsample: 5"
-      - "start: 0.525, end: 1.0, downsample: 8"
+      - "start: 0.0, end: 0.1824375, downsample: 45"        # OT-128
+      - "start: 0.1824375, end: 0.4704375, downsample: 10"
+      - "start: 0.4704375, end: 0.6735625, downsample: 1"
+      - "start: 0.6735625, end: 0.8175625, downsample: 20"
+      - "start: 0.8175625, end: 1.0, downsample: 45"
+      #- "start: 0.0, end: 0.1824375, downsample: 45"        # OT-128 reverse
+      #- "start: 0.1824375, end: 0.3264375, downsample: 10"
+      #- "start: 0.3264375, end: 0.5295625, downsample: 1"
+      #- "start: 0.5295625, end: 0.8175625, downsample: 20"
+      #- "start: 0.8175625, end: 1.0, downsample: 45"

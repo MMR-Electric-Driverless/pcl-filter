@@ -8,8 +8,9 @@ pointcloud_filter_node:
     z_traslation: 1.
     gradient: true
     intensity: false
-    angle_zones:
-      - "start: 0.0, end: 0.084, downsample: 45"  #OT128
-      - "start: 0.084, end: 0.558, downsample: 10"
-      - "start: 0.558, end: 0.879, downsample: 1"
-      - "start: 0.879, end: 1.0, downsample: 10"
+    angle_zones:  #OT128
+      - "start: 0.0, end: 0.1558823529411765, downsample: 5"
+      - "start: 0.1558823529411765, end: 0.5470588235294117, downsample: 3"
+      - "start: 0.5470588235294117, end: 0.7860294117647059, downsample: 1"
+      - "start: 0.7860294117647059, end: 0.9647058823529412, downsample: 3"
+      - "start: 0.9647058823529412, end: 1.0, downsample: 7"

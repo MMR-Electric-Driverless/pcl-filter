@@ -9,8 +9,8 @@ pointcloud_filter_node:
     gradient: true
     intensity: false
     angle_zones:  #OT128
-      - "start: 0.0, end: 0.1558823529411765, downsample: 5"
-      - "start: 0.1558823529411765, end: 0.5470588235294117, downsample: 3"
-      - "start: 0.5470588235294117, end: 0.7860294117647059, downsample: 1"
-      - "start: 0.7860294117647059, end: 0.9647058823529412, downsample: 3"
-      - "start: 0.9647058823529412, end: 1.0, downsample: 7"
+      - "start: 0.000, end: 0.133, downsample: 5"
+      - "start: 0.133, end: 0.465, downsample: 3"
+      - "start: 0.465, end: 0.668, downsample: 1"
+      - "start: 0.668, end: 0.820, downsample: 3"
+      - "start: 0.820, end: 0.850, downsample: 7"
